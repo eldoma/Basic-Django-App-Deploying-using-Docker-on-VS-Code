@@ -1,9 +1,9 @@
 # Basic-Django-App-Deploying-using-Docker-on-VS-Code
 
-## Basic Django App Deploying using Docker, creating a Docker image, containerize on Docker using VS Code Standalone
+## Basic Django App Deploying using Docker, created a Docker image, containerized on Docker using Visual Studio VS Code Standalone, pushed the built image to IBM’s icr Cloud Container registry
 
 ## _Successfully created Docker Container image._ 
-_Have not share it on IBM Cloud Code Engine_
+_Have not successfully share it on IBM Cloud Code Engine_
 
 ## Install these must-have packages and setup the Django environment.
 
@@ -54,8 +54,10 @@ test the HTTPResponse returned by Docker Build on http://127.0.0.1:8000/firstapp
 ## Attempt to share on IBM Cloud Code Engine 
 - $env:APP_NAME = "my-django-app"          
 - $env:REGISTRY = "us.icr.io"
+- 
+## Tagged and push the built image to IBM’s icr registry:
 - docker tag my-django-app:latest us.icr.io/my_namespace/my-django-app:latest    
 - docker push us.icr.io/my_namespace/my-django-app:latest
 ![Docker2](https://github.com/eldoma/Basic-Django-App-Deploying-using-Docker-on-VS-Code/blob/main/Docker2.jpg)       
 
-## _Note: Not successful yet sharing on IBM Cloud Code Engine_
+## _Note: Not successful yet sharing on IBM Cloud Code Engine_ through Visual Studio
