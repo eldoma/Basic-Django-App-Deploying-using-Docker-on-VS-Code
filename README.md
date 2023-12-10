@@ -1,6 +1,6 @@
 # Basic-Django-App-Deploying-using-Docker-on-VS-Code
 
-## Basic Django App Deploying using Docker, created a Docker image, containerized on Docker using Visual Studio VS Code Standalone, pushed the built image to IBM’s icr Cloud Container registry
+## Basic Django App Deploying using Docker, created a Docker image, containerized on Docker using Visual Studio VS Code Standalone, then pushed the built image to IBM’s icr Cloud Container registry, attempting to display the image on IBM Code Engine.
 
 ## _Successfully created Docker Container image._ 
 _Have not successfully share it on IBM Cloud Code Engine_
