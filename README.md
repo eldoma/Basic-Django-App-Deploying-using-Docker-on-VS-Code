@@ -20,7 +20,7 @@ _SUccessfully created Docker Container image. Have not share it on IBM Cloud Cod
 - python manage.py migrate   
 - python manage.py runserver                                                                                                                                   
 
-## Test the Server run on http://127.0.0.1:8000/
+## Test the Server run on http://127.0.0.1:8000
 
 ### after adding Views, test the HTTPResponse returned by first view on http://127.0.0.1:8000/firstapp 
 
@@ -38,8 +38,11 @@ _SUccessfully created Docker Container image. Have not share it on IBM Cloud Cod
 - docker run -e PYTHONUNBUFFERED=1 -p 8000:8000 my-django-app    
 
 ### The result must be the same with the HTTPResponse returned
+test the HTTPResponse returned by Docker Build on http://127.0.0.1:8000/firstapp 
 
-### Docker image
+test the HTTPResponse returned by Docker Build on http://127.0.0.1:8000/firstapp/date 
+
+### Docker image on Standalone
 
 ## Attempt to share on IBM Cloud Code Engine (not successful yet)
 - $env:APP_NAME = "my-django-app"          
