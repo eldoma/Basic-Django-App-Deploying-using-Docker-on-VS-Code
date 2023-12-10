@@ -22,7 +22,7 @@ _Have not share it on IBM Cloud Code Engine_
 - python manage.py runserver                                                                                                                                   
 
 ## Test the Server run on http://127.0.0.1:8000
-![](https://github.com/eldoma/Basic-Django-App-Deploying-using-Docker-on-VS-Code/blob/main/Django_test.jpg)
+![Django Test](https://github.com/eldoma/Basic-Django-App-Deploying-using-Docker-on-VS-Code/blob/main/Django%20test.jpg)
 
 ### after adding Views, test the HTTPResponse returned by first view on http://127.0.0.1:8000/firstapp 
 !(https://github.com/eldoma/Basic-Django-App-Deploying-using-Docker-on-VS-Code/blob/main/firstapp.jpg)
