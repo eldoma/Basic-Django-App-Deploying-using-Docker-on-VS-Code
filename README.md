@@ -6,7 +6,7 @@
 ##### attempting to display the image on IBM Code Engine.
 
 ## _Successfully created Docker Container image._ 
-_Have not successfully share it on IBM Cloud Code Engine_
+_Note: Have not been successfully shared it on IBM Cloud Code Engine._
 
 ## Install these must-have packages and setup the Django environment:
 - pip install --upgrade distro-info
